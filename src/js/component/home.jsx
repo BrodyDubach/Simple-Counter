@@ -1,16 +1,9 @@
 import React from "react";
 
-//include images into your bundle
-
-
-//create your first component
-
 function Home(props) {
   return (
     <div className="container">
-      <h1 className="icon num">
-        <AiOutlineClockCircle />
-      </h1>
+
       <h1 className="num">
         {Math.floor(props.sec / 100000) % 10}
       </h1>
